@@ -25,6 +25,7 @@ db.exec(`
 
 app.use(cors());
 app.use(express.json());
+app.use(express.static(__dirname)); 
 
 // --- Регистрация ---
 app.post("/api/register", async (req, res) => {
