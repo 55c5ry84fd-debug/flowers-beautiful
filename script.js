@@ -11,7 +11,7 @@ const products = [
 ];
 
 // Адрес нашего сервера на Render (заменим на настоящий после деплоя)
-const API_URL = "https://flowers-beautiful.onrender.com/api";api"; 
+const API_URL = "https://flowers-beautiful.onrender.com/api"; 
 
 let token = localStorage.getItem("fb_token") || null;
 let currentUser = null;
